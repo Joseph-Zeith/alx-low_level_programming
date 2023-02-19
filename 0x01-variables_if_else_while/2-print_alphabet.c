@@ -1,21 +1,21 @@
 #include <stdio.h>
 
-
 /**
- * main - prints the alphabet in lower case followed by a new line
- * Return: Always 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
-
 {
-	char aj;
+	char c;
 
-	for (aj = 'a'; aj <= 'z'; aj++)
-	{
-		putchar(aj);
-	}
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
 	putchar('\n');
-
 	return (0);
 }
-
