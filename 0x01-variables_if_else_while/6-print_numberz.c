@@ -11,9 +11,9 @@ int main(void)
 
 	b = 0;
 	while
-		(c < 10) {
-			putchar(c + '0');
-			c++;
+		(b < 10) {
+			putchar(b + '0');
+			b++;
 		}
 	putchar('\n');
 	return (0);
