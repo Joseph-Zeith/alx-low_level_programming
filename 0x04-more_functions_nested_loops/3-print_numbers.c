@@ -1,17 +1,21 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
- * print_numbers - print 0-9
+ * print_numbers -  prints the numbers, from 0 to 9
+ * Description: prints the numbers in order from 0 to 9
+ *
  * Return: void
  */
-
 void print_numbers(void)
 {
-	char c;
+	char j;
 
-	for (c = '0'; c <= '9'; c++)
+	for (j = '0'; j <= '9'; j++)
 	{
-		_putchar(0);
+		_putchar(j);
 	}
 	_putchar('\n');
 }
+
