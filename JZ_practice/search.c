@@ -20,5 +20,5 @@ int main()
 		}
 	}
 			if (count == 10)
-			printf("The entered value is invalid, please try again");
+			printf("The entered value is invalid, please try again\n");
 }
