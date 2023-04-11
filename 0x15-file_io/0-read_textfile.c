@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * read_file -  creates a file
+ * read_file -  reads a text file and prints it to the POSIX standard output
  * @filename: name of the file to create
  * Return: w- actual number read and  printed
  * 0 when the function fails or the filename is NULL
