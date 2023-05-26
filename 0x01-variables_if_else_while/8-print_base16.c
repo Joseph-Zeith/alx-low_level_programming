@@ -7,22 +7,20 @@
 
 int main(void)
 {
-	char k;
+	int j;
 
-	int l;
-
-	k = 'a';
-	l = '0';
-	while
-		(l < 10) {
-			putchar(l + '0');
-			l++;
+	for (j = 0; j < 16; j++)
+	{
+		if (j < 10)
+		{
+			putchar('0' + j);
 		}
-	while
-		(k <= 'f') {
-			putchar(k);
-			k++;
+		else
+		{
+			putchar('a' + j - 10);
 		}
+	}
 	putchar('\n');
+
 	return (0);
 }
